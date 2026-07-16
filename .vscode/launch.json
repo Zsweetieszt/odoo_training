@@ -1,5 +1,20 @@
 {
+    "version": "0.2.0",
     "configurations": [
-    
+        {
+            "name": "Run Odoo 18",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "python12",
+            "program": "C:\\Users\\dinan\\Downloads\\NTI\\odoo18\\server\\odoo-bin",
+            "args": [
+                "-c",
+                "C:\\Users\\dinan\\Downloads\\NTI\\conf\\odoo18-training.conf",
+                "-u",
+                "library_management"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
     ]
 }

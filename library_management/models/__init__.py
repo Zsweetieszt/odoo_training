@@ -2,3 +2,5 @@
 
 from . import models
 from . import book
+from . import author
+from . import category
